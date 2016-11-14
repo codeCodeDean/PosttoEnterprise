@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05FBF57C1DDA1B8100F5C7AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FBF57B1DDA1B8100F5C7AB /* AppDelegate.swift */; };
+		05FBF57E1DDA1B8100F5C7AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FBF57D1DDA1B8100F5C7AB /* ViewController.swift */; };
+		05FBF5811DDA1B8100F5C7AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05FBF57F1DDA1B8100F5C7AB /* Main.storyboard */; };
+		05FBF5831DDA1B8100F5C7AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05FBF5821DDA1B8100F5C7AB /* Assets.xcassets */; };
+		05FBF5861DDA1B8100F5C7AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05FBF5841DDA1B8100F5C7AB /* LaunchScreen.storyboard */; };
+		05FBF5911DDA1B8100F5C7AB /* LEOPostTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FBF5901DDA1B8100F5C7AB /* LEOPostTests.swift */; };
+		05FBF59C1DDA1B8100F5C7AB /* LEOPostUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FBF59B1DDA1B8100F5C7AB /* LEOPostUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05FBF58D1DDA1B8100F5C7AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05FBF5701DDA1B8100F5C7AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05FBF5771DDA1B8100F5C7AB;
+			remoteInfo = LEOPost;
+		};
+		05FBF5981DDA1B8100F5C7AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05FBF5701DDA1B8100F5C7AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05FBF5771DDA1B8100F5C7AB;
+			remoteInfo = LEOPost;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05FBF5781DDA1B8100F5C7AB /* LEOPost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LEOPost.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05FBF57B1DDA1B8100F5C7AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		05FBF57D1DDA1B8100F5C7AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		05FBF5801DDA1B8100F5C7AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		05FBF5821DDA1B8100F5C7AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05FBF5851DDA1B8100F5C7AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		05FBF5871DDA1B8100F5C7AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05FBF58C1DDA1B8100F5C7AB /* LEOPostTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LEOPostTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05FBF5901DDA1B8100F5C7AB /* LEOPostTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEOPostTests.swift; sourceTree = "<group>"; };
+		05FBF5921DDA1B8100F5C7AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05FBF5971DDA1B8100F5C7AB /* LEOPostUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LEOPostUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05FBF59B1DDA1B8100F5C7AB /* LEOPostUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEOPostUITests.swift; sourceTree = "<group>"; };
+		05FBF59D1DDA1B8100F5C7AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05FBF5751DDA1B8100F5C7AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05FBF5891DDA1B8100F5C7AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05FBF5941DDA1B8100F5C7AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05FBF56F1DDA1B8100F5C7AB = {
+			isa = PBXGroup;
+			children = (
+				05FBF57A1DDA1B8100F5C7AB /* LEOPost */,
+				05FBF58F1DDA1B8100F5C7AB /* LEOPostTests */,
+				05FBF59A1DDA1B8100F5C7AB /* LEOPostUITests */,
+				05FBF5791DDA1B8100F5C7AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05FBF5791DDA1B8100F5C7AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05FBF5781DDA1B8100F5C7AB /* LEOPost.app */,
+				05FBF58C1DDA1B8100F5C7AB /* LEOPostTests.xctest */,
+				05FBF5971DDA1B8100F5C7AB /* LEOPostUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05FBF57A1DDA1B8100F5C7AB /* LEOPost */ = {
+			isa = PBXGroup;
+			children = (
+				05FBF57B1DDA1B8100F5C7AB /* AppDelegate.swift */,
+				05FBF57D1DDA1B8100F5C7AB /* ViewController.swift */,
+				05FBF57F1DDA1B8100F5C7AB /* Main.storyboard */,
+				05FBF5821DDA1B8100F5C7AB /* Assets.xcassets */,
+				05FBF5841DDA1B8100F5C7AB /* LaunchScreen.storyboard */,
+				05FBF5871DDA1B8100F5C7AB /* Info.plist */,
+			);
+			path = LEOPost;
+			sourceTree = "<group>";
+		};
+		05FBF58F1DDA1B8100F5C7AB /* LEOPostTests */ = {
+			isa = PBXGroup;
+			children = (
+				05FBF5901DDA1B8100F5C7AB /* LEOPostTests.swift */,
+				05FBF5921DDA1B8100F5C7AB /* Info.plist */,
+			);
+			path = LEOPostTests;
+			sourceTree = "<group>";
+		};
+		05FBF59A1DDA1B8100F5C7AB /* LEOPostUITests */ = {
+			isa = PBXGroup;
+			children = (
+				05FBF59B1DDA1B8100F5C7AB /* LEOPostUITests.swift */,
+				05FBF59D1DDA1B8100F5C7AB /* Info.plist */,
+			);
+			path = LEOPostUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05FBF5771DDA1B8100F5C7AB /* LEOPost */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05FBF5A01DDA1B8100F5C7AB /* Build configuration list for PBXNativeTarget "LEOPost" */;
+			buildPhases = (
+				05FBF5741DDA1B8100F5C7AB /* Sources */,
+				05FBF5751DDA1B8100F5C7AB /* Frameworks */,
+				05FBF5761DDA1B8100F5C7AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LEOPost;
+			productName = LEOPost;
+			productReference = 05FBF5781DDA1B8100F5C7AB /* LEOPost.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05FBF58B1DDA1B8100F5C7AB /* LEOPostTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05FBF5A31DDA1B8100F5C7AB /* Build configuration list for PBXNativeTarget "LEOPostTests" */;
+			buildPhases = (
+				05FBF5881DDA1B8100F5C7AB /* Sources */,
+				05FBF5891DDA1B8100F5C7AB /* Frameworks */,
+				05FBF58A1DDA1B8100F5C7AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05FBF58E1DDA1B8100F5C7AB /* PBXTargetDependency */,
+			);
+			name = LEOPostTests;
+			productName = LEOPostTests;
+			productReference = 05FBF58C1DDA1B8100F5C7AB /* LEOPostTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		05FBF5961DDA1B8100F5C7AB /* LEOPostUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05FBF5A61DDA1B8100F5C7AB /* Build configuration list for PBXNativeTarget "LEOPostUITests" */;
+			buildPhases = (
+				05FBF5931DDA1B8100F5C7AB /* Sources */,
+				05FBF5941DDA1B8100F5C7AB /* Frameworks */,
+				05FBF5951DDA1B8100F5C7AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05FBF5991DDA1B8100F5C7AB /* PBXTargetDependency */,
+			);
+			name = LEOPostUITests;
+			productName = LEOPostUITests;
+			productReference = 05FBF5971DDA1B8100F5C7AB /* LEOPostUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05FBF5701DDA1B8100F5C7AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = com.Dean;
+				TargetAttributes = {
+					05FBF5771DDA1B8100F5C7AB = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					05FBF58B1DDA1B8100F5C7AB = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 05FBF5771DDA1B8100F5C7AB;
+					};
+					05FBF5961DDA1B8100F5C7AB = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 05FBF5771DDA1B8100F5C7AB;
+					};
+				};
+			};
+			buildConfigurationList = 05FBF5731DDA1B8100F5C7AB /* Build configuration list for PBXProject "LEOPost" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05FBF56F1DDA1B8100F5C7AB;
+			productRefGroup = 05FBF5791DDA1B8100F5C7AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05FBF5771DDA1B8100F5C7AB /* LEOPost */,
+				05FBF58B1DDA1B8100F5C7AB /* LEOPostTests */,
+				05FBF5961DDA1B8100F5C7AB /* LEOPostUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05FBF5761DDA1B8100F5C7AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05FBF5861DDA1B8100F5C7AB /* LaunchScreen.storyboard in Resources */,
+				05FBF5831DDA1B8100F5C7AB /* Assets.xcassets in Resources */,
+				05FBF5811DDA1B8100F5C7AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05FBF58A1DDA1B8100F5C7AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05FBF5951DDA1B8100F5C7AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05FBF5741DDA1B8100F5C7AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05FBF57E1DDA1B8100F5C7AB /* ViewController.swift in Sources */,
+				05FBF57C1DDA1B8100F5C7AB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05FBF5881DDA1B8100F5C7AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05FBF5911DDA1B8100F5C7AB /* LEOPostTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05FBF5931DDA1B8100F5C7AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05FBF59C1DDA1B8100F5C7AB /* LEOPostUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05FBF58E1DDA1B8100F5C7AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05FBF5771DDA1B8100F5C7AB /* LEOPost */;
+			targetProxy = 05FBF58D1DDA1B8100F5C7AB /* PBXContainerItemProxy */;
+		};
+		05FBF5991DDA1B8100F5C7AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05FBF5771DDA1B8100F5C7AB /* LEOPost */;
+			targetProxy = 05FBF5981DDA1B8100F5C7AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		05FBF57F1DDA1B8100F5C7AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05FBF5801DDA1B8100F5C7AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		05FBF5841DDA1B8100F5C7AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05FBF5851DDA1B8100F5C7AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05FBF59E1DDA1B8100F5C7AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05FBF59F1DDA1B8100F5C7AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05FBF5A11DDA1B8100F5C7AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LEOPost/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DIW.LEOPost;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		05FBF5A21DDA1B8100F5C7AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LEOPost/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DIW.LEOPost;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		05FBF5A41DDA1B8100F5C7AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LEOPostTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DIW.LEOPostTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LEOPost.app/LEOPost";
+			};
+			name = Debug;
+		};
+		05FBF5A51DDA1B8100F5C7AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LEOPostTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DIW.LEOPostTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LEOPost.app/LEOPost";
+			};
+			name = Release;
+		};
+		05FBF5A71DDA1B8100F5C7AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LEOPostUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DIW.LEOPostUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LEOPost;
+			};
+			name = Debug;
+		};
+		05FBF5A81DDA1B8100F5C7AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LEOPostUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DIW.LEOPostUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LEOPost;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05FBF5731DDA1B8100F5C7AB /* Build configuration list for PBXProject "LEOPost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05FBF59E1DDA1B8100F5C7AB /* Debug */,
+				05FBF59F1DDA1B8100F5C7AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05FBF5A01DDA1B8100F5C7AB /* Build configuration list for PBXNativeTarget "LEOPost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05FBF5A11DDA1B8100F5C7AB /* Debug */,
+				05FBF5A21DDA1B8100F5C7AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		05FBF5A31DDA1B8100F5C7AB /* Build configuration list for PBXNativeTarget "LEOPostTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05FBF5A41DDA1B8100F5C7AB /* Debug */,
+				05FBF5A51DDA1B8100F5C7AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		05FBF5A61DDA1B8100F5C7AB /* Build configuration list for PBXNativeTarget "LEOPostUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05FBF5A71DDA1B8100F5C7AB /* Debug */,
+				05FBF5A81DDA1B8100F5C7AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05FBF5701DDA1B8100F5C7AB /* Project object */;
+}
